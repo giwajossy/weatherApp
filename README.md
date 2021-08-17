@@ -19,6 +19,7 @@ Fetches real-time weather report from over 200k cities around the world.
 **Technologies:**
 - NodeJS
 - ExpressJS
+- Weather API
 
 
 ---
@@ -32,6 +33,9 @@ Fetches real-time weather report from over 200k cities around the world.
 ```
 npm install
 ```
+
+**Configuration**
+- Head over to [the weather API](https://openweathermap.org/) to get your own API_KEY to replace the dummy API_KEY currently in the *app.js* file on the root route
 
 **Start the application**
 
