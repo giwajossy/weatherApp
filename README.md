@@ -45,7 +45,6 @@ node app.js
 
 
 ---
-![Weather App Short](https://res.cloudinary.com/dd3hmuucq/image/upload/v1629222333/Weather%20App%20resources/Weather_Report_-_Qatar_fh4jhx.jpg)
 
 ## The Design Principles used are:
 
@@ -72,3 +71,5 @@ I utilized this principle to make it simpler for other software engineers to env
 I utilized this principle since it abstains from investing energy on features that may not be used and helps me avoid feature creep.
 ```
 
+---
+![Weather App Short](https://res.cloudinary.com/dd3hmuucq/image/upload/v1629222333/Weather%20App%20resources/Weather_Report_-_Qatar_fh4jhx.jpg)
