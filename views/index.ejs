@@ -1,0 +1,120 @@
+<%- include("partials/header.ejs") %>
+        
+
+    <div class="container">
+        
+        <div class="main">
+            <div class="left">
+                <h3><%=ctName%>, <%=cou%></h3>
+                <h4><%=desc%></h4>
+                <img src="<%=imgLink%>" alt="">
+                <h1><%=temp%><sup>o</sup>c  </h1>
+                <h5>Feels like <%=tFeelsLike%> <sup>o</sup>C  </h5>
+            </div>
+
+
+            <div class="right">
+                <div class="top">
+                    <div class="top-left">
+                        <h2>Weather Report for 200k+ cities</h2>
+                    </div>
+                    
+                    <div class="top-right">
+                        <form action="/" method="post">
+                            <input type="text" name="city" placeholder="Enter city" autofocus>
+                            <small></small>
+                        </form>
+                    </div>
+                    
+                </div>
+
+                <div class="bottom">
+                    <div class="row-one">
+                        <div class="card">
+                            <div class="lhs">
+                                <img src="images/humidity.png" alt="">
+                            </div>
+                            <div class="rhs">
+                                <h3>Humidity</h3>
+                                <h1><%=hum%></h1>
+                                <p>%</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="lhs">
+                                <img src="images/windspeed.png" alt="">
+                            </div>
+                            <div class="rhs">
+                                <h3>Wind Speed</h3>
+                                <h1><%=wSpeed%></h1>
+                                <p>m/s</p>
+                            </div>                                
+                        </div>
+
+                        <div class="card">
+                            <div class="lhs">
+                                <img src="images/winddirection.png" alt="">
+                            </div>
+                            <div class="rhs">
+                                <h3>Wind Direction</h3>
+                                <h1><%=wDirection%></h1>
+                                <p><%=wDegree%> degrees</p>
+                            </div>                                
+                        </div>
+                    </div>
+
+
+                    <div class="row-two">
+                        <div class="card">
+                            <div class="lhs">
+                                <img src="images/visibility.png" alt="">
+                            </div>
+                            <div class="rhs">
+                                <h3>Visibility</h3>
+                                <h1><%=visi%></h1>
+                                <p>km</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="lhs">
+                                <img src="images/sunrise.png" alt="">
+                            </div>
+                            <div class="rhs">
+                                <h3>Sunrise</h3>
+                                <h1><%=sunR%></h1>
+                            </div>                                
+                        </div>
+
+                        <div class="card">
+                            <div class="lhs">
+                                <img src="images/sunset.png" alt="">
+                            </div>
+                            <div class="rhs">
+                                <h3>Sunset</h3>
+                                <h1><%=sunS%></h1>
+                            </div>                                
+                        </div>
+                    </div>
+                    
+                    <hr>
+                    <footer>
+                        <form action="/unit" method="post">
+                            <button type="submit" name="metricBtn" id="metric" value="metric" onclick="metricBtn()">Metric System</button>
+                            <button type="submit" name="imperialBtn" id="imperial"  value="imperial" onclick="imperialBtn()">Imperial System</button>
+                        </form>
+                        
+                        
+                    </footer>
+
+                    
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+<%- include("partials/footer.ejs") %>
