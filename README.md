@@ -3,7 +3,7 @@
 Fetches real-time weather report from over 200k cities around the world.
 
 [Live Demo](https://sheltered-coast-80443.herokuapp.com/)
-![Weather App Short](https://res.cloudinary.com/dd3hmuucq/image/upload/v1629222347/Weather%20App%20resources/Weather_App_uiw4bp.gif)
+![Weather App Short](https://github.com/giwajossy/weatherApp/blob/master/demo.gif)
 
 ---
 **Author:** 
