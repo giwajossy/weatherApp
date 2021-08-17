@@ -2,22 +2,24 @@
 
 Fetches real-time weather report from over 200k cities around the world.
 
-[Live Demo] (https://sheltered-coast-80443.herokuapp.com/)
+[Live Demo](https://sheltered-coast-80443.herokuapp.com/)
 
 
-**Author:** Giwa Jossy
+**Author:** 
+- Giwa Jossy
+
 
 **Environments**
+- Node version - v14.17.0
 
-Node version - v14.17.0
 
-**This application uses the following technologies:**
-
+**Technologies:**
 - NodeJS
 - ExpressJS
 
 
-note: `run all commands in the applications root directory`
+---
+*note*: `run all commands in the applications root directory`
 
 
 ## To run the app manually
@@ -31,7 +33,7 @@ npm install
 **Start the application**
 
 ```
-npm start
+node app.js
 ```
 
 #
