@@ -4,7 +4,7 @@ Fetches real-time weather report from over 200k cities around the world.
 
 [Live Demo](https://sheltered-coast-80443.herokuapp.com/)
 
-
+---
 **Author:** 
 - Giwa Jossy
 
@@ -41,7 +41,7 @@ node app.js
 
 
 
-
+---
 ## The Design Principles used are:
 
 - DRY Principle
@@ -67,3 +67,5 @@ I utilized this principle to make it simpler for other software engineers to env
 I utilized this principle since it abstains from investing energy on features that may not be used and helps me avoid feature creep.
 ```
 
+--- 
+![Weather App Short](https://res.cloudinary.com/dd3hmuucq/image/upload/v1629222333/Weather%20App%20resources/Weather_Report_-_Qatar_fh4jhx.jpg)
