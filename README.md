@@ -2,6 +2,8 @@
 
 Fetches real-time weather report from over 200k cities around the world.
 
+[Live Demo] (https://sheltered-coast-80443.herokuapp.com/)
+
 
 **Author:** Giwa Jossy
 
@@ -33,12 +35,6 @@ npm start
 ```
 
 #
-
-## To test the application
-
-```
-npm run test
-```
 
 
 
