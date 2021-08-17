@@ -35,7 +35,7 @@ npm install
 ```
 
 **Configuration**
-- Head over to [the weather API](https://openweathermap.org/) to get your own API_KEY to replace the dummy API_KEY currently in the *app.js* file on the root route
+- Head over to [the weather API](https://openweathermap.org/) to get your own API_KEY, and then replace the dummy API_KEY currently in the *app.js* file on the root route
 
 **Start the application**
 
